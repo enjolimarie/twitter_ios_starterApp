@@ -4,7 +4,7 @@ This is a basic twitter app to read your tweets.
 
 Time spent: **5** hours spent in total
 
-## User Stories
+## User StoriesCancel changes
 
 The following **required** functionality is completed:
 
@@ -20,7 +20,8 @@ The following **bonus** features are implemented:
 - [x] User can load past tweets infinitely. (2pts)
 
 ## Video Walkthrough
-![](https://i.imgur.com/n8dwb84.gif)
+![Screen_Recording_2021-09-26_at_3_15_22_PM_SparkVideo (1)](https://user-images.githubusercontent.com/82347440/134821712-f7261357-03e6-42d4-93ff-47a8d730ba23.gif)
+
 
 
 ![](https://i.imgur.com/hPFPqBm.gif)
