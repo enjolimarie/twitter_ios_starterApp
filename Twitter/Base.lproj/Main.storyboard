@@ -73,8 +73,8 @@
                                                 <constraint firstAttribute="height" constant="65" id="bWZ-ie-DGJ"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZt-a1-Wev">
-                                            <rect key="frame" x="73" y="0.0" width="81" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZt-a1-Wev">
+                                            <rect key="frame" x="73" y="0.0" width="205" height="22"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
