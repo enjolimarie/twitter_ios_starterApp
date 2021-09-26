@@ -1,4 +1,4 @@
- # Twitter - Part I
+# Twitter - Part I
 
 This is a basic twitter app to read your tweets.
 
@@ -20,7 +20,8 @@ The following **bonus** features are implemented:
 - [x] User can load past tweets infinitely. (2pts)
 
 ## Video Walkthrough
-![](https://i.imgur.com/Wan6QEN.gif)
+![](https://i.imgur.com/n8dwb84.gif)
+
 
 ![](https://i.imgur.com/hPFPqBm.gif)
 
