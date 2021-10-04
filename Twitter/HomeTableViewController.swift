@@ -12,7 +12,7 @@ class HomeTableViewController: UITableViewController {
 
 
     var tweetArray = [NSDictionary]()
-    var numberOfTweet: Int!
+    var numberOfTweet = Int()
 
     let myRefreshControl = UIRefreshControl()
 
@@ -34,7 +34,7 @@ class HomeTableViewController: UITableViewController {
 
     @objc func loadTweets(){
 
-        numberOfTweet = 20
+        numberOfTweet = 5
         let myURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
         let myParams = ["count": numberOfTweet]
 
@@ -55,7 +55,7 @@ class HomeTableViewController: UITableViewController {
 
     func loadMoreTweets(){
         let myURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
-        numberOfTweet = numberOfTweet + 20
+        numberOfTweet = numberOfTweet + 5
         let myParams = ["count": numberOfTweet]
         TwitterAPICaller.client?.getDictionariesRequest(url: myURL, parameters: myParams, success: { (tweets: [NSDictionary]) in
 
@@ -100,6 +100,11 @@ class HomeTableViewController: UITableViewController {
         }
 
         cell.setFavorite(tweetArray[indexPath.row]["favorited"] as! Bool)
+        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int
+        cell.setRetweeted(tweetArray[indexPath.row]["retweeted"] as! Bool)
+        
+
+        
 
         return cell
     }
