@@ -2,7 +2,7 @@
 //  TweetCellTableViewCell.swift
 //  Twitter
 //
-//  Created by Cynthia Gonzalez on 9/26/21.
+//  Created by Cynthia Gonzalez on 10/4/21.
 //  Copyright © 2021 Dan. All rights reserved.
 //
 
@@ -11,9 +11,8 @@ import UIKit
 class TweetCellTableViewCell: UITableViewCell {
 
     @IBOutlet weak var profileImageView: UIImageView!
-    @IBOutlet weak var userNameLabel: UILabel!    
+    @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var tweetContent: UILabel!
-
 
 
     override func awakeFromNib() {

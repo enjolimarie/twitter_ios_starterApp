@@ -100,9 +100,9 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <outlet property="profileImageView" destination="gJu-jp-6Tb" id="1ab-xJ-0iy"/>
-                                    <outlet property="tweetContent" destination="x4c-tZ-Yfn" id="v5D-N9-prH"/>
-                                    <outlet property="userNameLabel" destination="xZt-a1-Wev" id="F8x-fR-bpG"/>
+                                    <outlet property="profileImageView" destination="gJu-jp-6Tb" id="d4r-ix-bs9"/>
+                                    <outlet property="tweetContent" destination="x4c-tZ-Yfn" id="gEx-nV-orH"/>
+                                    <outlet property="userNameLabel" destination="xZt-a1-Wev" id="B1l-zn-WJS"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -134,11 +134,11 @@
             <objects>
                 <viewController id="XRi-EQ-eTR" customClass="TweetViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QmC-G9-H0x">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rsb-OA-IzS">
-                                <rect key="frame" x="0.0" y="56" width="414" height="128"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="128"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="yxI-fK-1mM"/>
@@ -197,10 +197,10 @@
         <!--Tweet Navigation Controller-->
         <scene sceneID="UOx-5s-7Kl">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1It-Yb-anj" userLabel="Tweet Navigation Controller" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="1It-Yb-anj" userLabel="Tweet Navigation Controller" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CGH-tQ-sAL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" systemColor="linkColor"/>
                     </navigationBar>
