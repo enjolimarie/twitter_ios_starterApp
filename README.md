@@ -19,7 +19,9 @@ The following **bonus** features are implemented:
 - [ ] User sees embedded images in tweet if available. (3pts)
 
 ## Video Walkthrough
-![](https://i.imgur.com/OpgT0EI.gif)
+![](https://i.imgur.com/110ea7e.gif)
+![Unit4CynthiaG](https://user-images.githubusercontent.com/82347440/135900554-9342fa49-f3c0-42e7-9bdd-a9f0fb0810f5.gif)
+
 
 
 
