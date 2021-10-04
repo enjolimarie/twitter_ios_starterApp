@@ -34,7 +34,7 @@ class HomeTableViewController: UITableViewController {
 
     @objc func loadTweets(){
 
-        numberOfTweet = 5
+        numberOfTweet = 10
         let myURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
         let myParams = ["count": numberOfTweet]
 
@@ -55,7 +55,7 @@ class HomeTableViewController: UITableViewController {
 
     func loadMoreTweets(){
         let myURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
-        numberOfTweet = numberOfTweet + 5
+        numberOfTweet = numberOfTweet + 20
         let myParams = ["count": numberOfTweet]
         TwitterAPICaller.client?.getDictionariesRequest(url: myURL, parameters: myParams, success: { (tweets: [NSDictionary]) in
 
