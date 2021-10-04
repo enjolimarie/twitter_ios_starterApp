@@ -20,7 +20,7 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-![Unit4CynthiaG](https://user-images.githubusercontent.com/82347440/135901144-406c03cf-0d09-46d1-a922-02d5ae36c382.gif)
+![CynthiaGunit4Gif](https://user-images.githubusercontent.com/82347440/135909791-83f4b64c-4450-4bc6-8174-96cf03caa029.gif)
 
 
 
