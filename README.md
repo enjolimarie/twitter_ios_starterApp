@@ -20,7 +20,8 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-![Screen_Recording_2021-10-04_at_1_36_28_PM_SparkVideo](https://user-images.githubusercontent.com/82347440/135901020-3a077816-d3c1-479a-a496-b7eddbcf6537.gif)
+![Unit4CynthiaG](https://user-images.githubusercontent.com/82347440/135901144-406c03cf-0d09-46d1-a922-02d5ae36c382.gif)
+
 
 
 
